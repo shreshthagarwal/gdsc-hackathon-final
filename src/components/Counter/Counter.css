@@ -1,0 +1,38 @@
+/* CountdownTimer.css */
+
+.countdown-container {
+  position: relative;
+  margin-left: 20px; /* Adjust as needed */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.countdown-item {
+  text-align: center;
+}
+
+.countdown-value {
+  font-size: 2em;
+  font-weight: bold;
+  color: #333;
+}
+
+.countdown-label {
+  font-size: 1.2em;
+  color: #666;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.countdown-value {
+  animation: fadeIn 1s ease-in-out;
+}

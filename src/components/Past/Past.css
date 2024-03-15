@@ -1,0 +1,116 @@
+.Past {
+  position: relative; /* Ensure position is relative for absolute positioning of highlights */
+  width: 100%;
+  max-width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(25, 24, 27);
+  padding: 50px; /* Add padding for better spacing */
+}
+
+.Row {
+  display: flex;
+  flex-direction: row;
+}
+
+.Timeline {
+  width: 80%; /* Adjust the width of the timeline */
+  margin: 100px;
+}
+
+/* Other styles... */
+
+.vertical-timeline-element--work {
+  width: 1000px;
+  transform: translateX(-100px);
+}
+
+.vertical-timeline-element-title {
+  color: #4285f4; /* Set the title color */
+  font-size: 25px;
+}
+
+.vertical-timeline-element-subtitle {
+  font-size: 18px;
+}
+
+.circle {
+  height: 16px;
+  width: 16px;
+  background-color: #3744cb; /* Set the circle color */
+  margin: auto;
+  margin-top: 18px;
+  border-radius: 50%;
+}
+
+.logobutton2 button {
+  font-family: BoldFont;
+  font-size: 15px;
+  font-weight: 100;
+  margin: 20px;
+  border: none;
+  border-radius: 8px;
+  width: 175px;
+  height: 55px;
+  margin-top: 20px; /* Adjust the margin for better spacing */
+  transition: 0.3s ease-in-out;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.411)) top/100% 800%;
+}
+
+.logobutton button:hover {
+  background-position: bottom;
+  cursor: pointer;
+}
+
+/* Add unique styles for each button */
+.btn1 {
+  background-color: #3744cb !important;
+  color: white;
+}
+
+.btn2 {
+  background-color: #20c9a2 !important;
+  color: white;
+}
+
+/* Add styles for other buttons if needed */
+
+@media screen and (max-width: 991px) {
+  .logobutton button {
+    margin-top: 10px; /* Adjust the margin for smaller screens */
+  }
+
+  .Timeline {
+    display: none;
+  }
+
+  .line,
+  .circle {
+    display: none;
+  }
+}
+
+.vertical-timeline::before {
+  width: 12px !important; /* Adjust the width as needed */
+}
+
+.vertical-timeline-element-content {
+  position: relative; /* Ensure position is relative for absolute positioning of highlights */
+}
+
+.vertical-timeline-element-content::after {
+  content: ""; /* Create a pseudo-element for the neon highlight */
+  position: absolute;
+  bottom: -12px; /* Position the highlight below the box */
+  left: 0;
+  width: 100%;
+  height: 13px; /* Adjust the height of the highlight as needed */
+  background: linear-gradient(
+    to right,
+    #0800ff,
+    #6f00ff
+  ); /* Use neon colors for gradient */
+  opacity: 0.6; /* Adjust opacity as needed */
+  border-radius: 1px; /* Add border-radius for rounded corners */
+}
