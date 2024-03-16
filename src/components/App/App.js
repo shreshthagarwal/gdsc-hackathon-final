@@ -21,29 +21,29 @@ class App extends Component {
           subtitle: ""
         },
         {
-          sectionName: "Past Events",
+          sectionName: "Timeline",
           subTitle: ""
         },
         {
           sectionName: "Themes",
           subtitle: ""
         },
-        {
-          sectionName: "Sponsors",
-          subtitle: ""
-        },
-        {
-          sectionName: "Partners",
-          subtitle: ""
-        },
+        // {
+        //   sectionName: "Sponsors",
+        //   subtitle: ""
+        // },
+        // {
+        //   sectionName: "Partners",
+        //   subtitle: ""
+        // },
         {
           sectionName: "FAQ",
           subtitle: ""
-        },
-        {
-          sectionName: "Our Team",
-          subtitle: ""
         }
+        // {
+        //   sectionName: "Our Team",
+        //   subtitle: ""
+        // }
       ]
     });
   }
@@ -55,7 +55,7 @@ class App extends Component {
         <Front />
         <Page section={this.state.sections} />
         <hr />
-        <Footer />
+        {/* <Footer /> */}
       </div>
     );
   }

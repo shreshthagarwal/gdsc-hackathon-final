@@ -13,7 +13,7 @@
     height: 90px;
     align-items: center;
     width: 100%;
-    transition: top 0.3s;
+    transition: top 1s;
   }
 
   .Navbar img {
@@ -68,7 +68,7 @@
   .PageLinks a:hover {
     transition: 0.3s ease-out;
     border-radius: 5px;
-    background: #c7c7c764;
+    background: #ecac0893;
     transition: 0.3s ease-out;
   }
 }

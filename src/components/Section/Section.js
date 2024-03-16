@@ -12,11 +12,11 @@ class Section extends Component {
   // Define a mapping of section names to colors
   sectionColors = {
     "About this hackathon": "#ea4335",
-    "Past Events": "#4285f4",
+    Timeline: "#4285f4",
     Themes: "green",
     Sponsors: "orange",
     Partners: "purple",
-    FAQ: "teal",
+    FAQ: "#ea4335",
     "Our Team": "brown"
   };
 
@@ -30,7 +30,7 @@ class Section extends Component {
         <h2 style={{ color: color }}>{this.props.section.sectionName}</h2>
         <h3>{this.props.section.subtitle}</h3>
         {this.props.section.sectionName === "About this hackathon" && <About />}
-        {this.props.section.sectionName === "Past Events" && <Past />}
+        {this.props.section.sectionName === "Timeline" && <Past />}
         {this.props.section.sectionName === "Themes" && <Event />}
         {this.props.section.sectionName === "Sponsors" && <Sponsor />}
         {this.props.section.sectionName === "Partners" && <Partners />}

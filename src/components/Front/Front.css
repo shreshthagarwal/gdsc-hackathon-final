@@ -10,6 +10,17 @@
   object-fit: contain;
 } */
 
+.hackathonlogo {
+  width: 550px;
+  transform: translate(410px, -200px);
+}
+
+.HeroText {
+  display: flex;
+  /* justify-content: space-around; */
+  width: 100%;
+  transform: translate(-520px, 300px);
+}
 .Front {
   display: flex;
   flex-direction: column;
@@ -41,12 +52,14 @@
 }
 
 .Barbicon {
-  transform: translate(300px, -130px);
+  transform: translate(370px, -100px);
+  width: 320px;
 }
 
 .timer {
   display: flex;
   justify-content: space-around;
+  transform: translate(-50px);
 }
 
 .timer-box {
@@ -105,24 +118,9 @@ h1 {
   margin-top: 20px;
 }
 
-/* .btn {
-  background-color: #ffb74d !important;
-  color: #fff;
-  font-family: 'Courier New', monospace;
-  margin-top: 50px;
-} */
-
-.logobutton {
-  transform: translate(-400px, 450px);
+.Registerbutton {
+  transform: translate(-300px, 520px);
 }
-
-/* 1
-.logobutton button:hover {
-  background-position: bottom;
-  cursor: pointer;
-  background-color: yellow;
-}
-
 
 /* Other existing styles... */
 
@@ -143,22 +141,51 @@ h1 {
 
 /* Rest of your styles... */
 
-.HeroText {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-  transform: translate(-400px, 260px);
-}
-
 h1 {
   color: white;
 }
 
-.btn .reg {
-  background-color: #ffffff;
-  color: white;
-  font-size: 27px;
-  width: 390px;
+.btnreg {
+  appearance: none;
+  background-color: #f4bd32;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #ff6314 0 -6px 6px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -0.24px;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.3rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btnreg:hover {
+  background-color: #f2ca65;
+  box-shadow: #272621 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+
+.btnreg:active {
+  transform: scale(1.025);
+}
+
+@media (min-width: 768px) {
+  .btnreg {
+    font-size: 1.5rem;
+    padding: 0.75rem 2rem;
+  }
 }
 
 @media only screen and (max-width: 2560px) {

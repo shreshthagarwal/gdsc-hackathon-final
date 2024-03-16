@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Front.css";
-import Group52Image from '../../images/Group 52.png';
+import Group2 from "../../images/Group2.png";
 // import { motion } from "framer-motion"; // Import motion from framer-motion
 
 import TextLogo from "../../images/uottahack19.png";
@@ -22,7 +22,7 @@ const Front = () => {
   function calculateTimeLeft() {
     // Calculate the time left here
     // You can replace the following dummy values with the actual end date and time of your hackathon
-    const endDate = new Date("2024-03-31T23:59:59"); // Replace with the actual end date
+    const endDate = new Date("2024-04-19T09:00:00"); // Replace with the actual end date
     const now = new Date();
 
     const difference = endDate - now;
@@ -49,11 +49,12 @@ const Front = () => {
             <img src={BarbarianInfoImage} alt="Barbarian Info" />
           </div>
 
-          
-
           {/* <img className="TextLogo" src={TextLogo} alt="" /> */}
         </div>
         <div className="HeroText">
+          <div className="hackathonlogo">
+            <img src={Group2} alt="Barbarian Info" />
+          </div>
           <div className="timer">
             <div className="timer-box">
               <p className="timer-value1">{timeLeft.days}</p>
@@ -74,10 +75,8 @@ const Front = () => {
           </div>
         </div>
 
-        <div className="logobutton">
-          <a href="https://2024.uottahack.ca/" target="_blank">
-            <button className="btn reg">Register Here →</button>
-          </a>
+        <div className="Registerbutton">
+          <button className="btnreg">Register Here →</button>
         </div>
         <Egg />
       </div>

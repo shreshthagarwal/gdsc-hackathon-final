@@ -9,6 +9,12 @@
   padding: 50px; /* Add padding for better spacing */
 }
 
+.paragraph-text {
+  font-size: 18px;
+  /* Change the font size to your desired value */
+  color: #d3d9e3;
+}
+
 .Row {
   display: flex;
   flex-direction: row;
@@ -28,11 +34,13 @@
 
 .vertical-timeline-element-title {
   color: #4285f4; /* Set the title color */
-  font-size: 25px;
+  font-size: 33px;
+  padding-bottom: 15px;
 }
 
 .vertical-timeline-element-subtitle {
-  font-size: 18px;
+  font-size: 20px;
+  color: hsl(266, 100%, 72%);
 }
 
 .circle {

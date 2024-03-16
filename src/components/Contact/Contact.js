@@ -6,47 +6,47 @@ class Contact extends Component {
   render() {
     return (
       <div className="Contact" id="Contact">
-        <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi diam justo, ornare quis nisi elementum, interdum convallis urna. Phasellus lobortis ante sed tortor rhoncus dapibus.
-        </p>
+        <p />
 
         <div className="buttons">
-          <h3>Neque porro quisquam est qui dolorem ipsum quia</h3>
-          <Button animated size="large">
+          <h3> </h3>
+          <Button primary animated size="large">
             <Button.Content visible>
-              Question 1{" "}
+              How many members are allowed in the team?{" "}
             </Button.Content>
-            <Button.Content hidden>Answer 1</Button.Content>
+            <Button.Content hidden>1-4 members</Button.Content>
           </Button>
 
-          <h3>Neque porro quisquam est qui dolorem ipsum quia</h3>
-          <Button animated size="large">
+          <h3 />
+          <Button secondary animated size="large">
             <Button.Content visible>
-              Question 2{" "}
+              Is there a registration fee for this hackathon{" "}
             </Button.Content>
-            <Button.Content hidden>Answer 2</Button.Content>
+            <Button.Content hidden>
+              No, this hackathon is open to all for free
+            </Button.Content>
           </Button>
 
-          <h3>Neque porro quisquam est qui dolorem ipsum quia</h3>
-          <Button animated size="large">
+          <h3> </h3>
+          <Button animated size="large" className="third">
             <Button.Content visible>
-              Question 3{" "}
+              Is it required for all the members of my team to be from the same
+              college{" "}
             </Button.Content>
-            <Button.Content hidden>Answer 3</Button.Content>
+            <Button.Content hidden>
+              No, the participants of a team can be from different colleges.
+            </Button.Content>
           </Button>
 
-          <h3>Neque porro quisquam est qui dolorem ipsum quia</h3>
-          <Button animated size="large">
+          <h3> </h3>
+          <Button animated size="large" className="fourth">
             <Button.Content visible>
-              Question 4{" "}
+              Will the hackathon be online or offline{" "}
             </Button.Content>
-            <Button.Content hidden>Answer 4</Button.Content>
+            <Button.Content hidden>
+              The hackathon will be offline{" "}
+            </Button.Content>
           </Button>
-
-
-
-
-
         </div>
       </div>
     );
