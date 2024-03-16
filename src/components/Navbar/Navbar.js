@@ -40,7 +40,7 @@ const navbar = () => {
             offset={-150}
             duration={500}
           >
-            <img src={images["uottahackLogo.png"]} alt="Logo" />
+            <img src={images["hacklogo.png"]} alt="Logo" />
           </Link>
         </div>
         <div className="PageLinks">
@@ -63,7 +63,7 @@ const navbar = () => {
             offset={-150}
             duration={500}
           >
-            Our Team
+            Themes
           </Link>
           <Link
             to="Sponsors"
@@ -85,7 +85,7 @@ const navbar = () => {
           </Link>
         </div>
         <div className="NavLinks">
-          <a href="https://twitter.com/uottahack" target="_blank">
+          <a href="https://twitter.com/dsc_bvp?lang=en" target="_blank">
             <box-icon
               name="twitter"
               class="bx-tada-hover"
@@ -93,7 +93,7 @@ const navbar = () => {
               color="white"
             />
           </a>
-          <a href="https://facebook.com/uottahack" target="_blank">
+          <a href="https://www.facebook.com/DSCBVP/" target="_blank">
             <box-icon
               type="logo"
               class="bx-tada-hover"
@@ -101,7 +101,7 @@ const navbar = () => {
               color="white"
             />
           </a>
-          <a href="https://www.instagram.com/uottahack/" target="_blank">
+          <a href="https://www.instagram.com/gdscbvp/" target="_blank">
             <box-icon
               name="instagram"
               class="bx-tada-hover"
@@ -109,36 +109,10 @@ const navbar = () => {
               color="white"
             />
           </a>
-          <a href="https://www.tiktok.com/@uottahack" target="_blank">
-            <box-icon
-              name="tiktok"
-              class="bx-tada-hover"
-              type="logo"
-              color="white"
-            />
-          </a>
-          <a href="https://www.linkedin.com/company/uottahack/" target="_blank">
+
+          <a href="https://www.linkedin.com/company/dsc-bvp/" target="_blank">
             <box-icon
               name="linkedin"
-              class="bx-tada-hover"
-              type="logo"
-              color="white"
-            />
-          </a>
-          <a
-            href="https://www.youtube.com/channel/UCTXw2aqRj-eisCShSQqwveA"
-            target="_blank"
-          >
-            <box-icon
-              name="youtube"
-              class="bx-tada-hover"
-              type="logo"
-              color="white"
-            />
-          </a>
-          <a href="https://medium.com/@uottahack" target="_blank">
-            <box-icon
-              name="medium-square"
               class="bx-tada-hover"
               type="logo"
               color="white"

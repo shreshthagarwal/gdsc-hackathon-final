@@ -6,3 +6,8 @@
 h3 {
   color: rgb(203, 92, 92);
 }
+
+.highlight {
+  color: #ff0000; /* Change this to the desired color */
+  display: inline;
+}

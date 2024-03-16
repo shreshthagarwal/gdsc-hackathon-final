@@ -24,16 +24,14 @@ class Past extends Component {
                     icon={<MdTablet />}
                   >
                     <h3 className="vertical-timeline-element-title">
-                      Event 1 Details
+                      Ideathon
                     </h3>
                     <h4 className="vertical-timeline-element-subtitle">
-                      Topic
+                      Time: 10-10:30 am to 2 pm
                     </h4>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Morbi diam justo, ornare quis nisi elementum, interdum
-                      convallis urna. Phasellus lobortis ante sed tortor rhoncus
-                      dapibus.
+                    <p className="paragraph-text">
+                      Participants brainstorm and pitch ideas. Ideas pitched to
+                      judges/community.
                     </p>
                     <div className="circle" />
                     <div className="logobutton2">
@@ -50,47 +48,19 @@ class Past extends Component {
                     iconStyle={{ background: "#2E0085", color: "#fff" }}
                     icon={<MdTablet />}
                   >
-                    <h3 className="vertical-timeline-element-title">Event 2</h3>
+                    <h3 className="vertical-timeline-element-title">
+                      Mentorship Round
+                    </h3>
                     <h4 className="vertical-timeline-element-subtitle">
-                      Topic
+                      Time: 2-3 pm
                     </h4>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Morbi diam justo, ornare quis nisi elementum, interdum
-                      convallis urna. Phasellus lobortis ante sed tortor rhoncus
-                      dapibus.
+                    <p className="paragraph-text">
+                      Mentorship sessions provided for refinement and idea
+                      development.
                     </p>
                     <div className="circle" />
                     <div className="logobutton2">
-                      <a href="https://2018.uottahack.ca/" target="_blank">
-                        <button className="btn1">Event Link →</button>
-                      </a>
-                    </div>
-                  </VerticalTimelineElement>
-                  <VerticalTimelineElement
-                    className="vertical-timeline-element--work"
-                    contentStyle={{ background: "#3F4047", color: "white" }}
-                    contentArrowStyle={{
-                      borderRight: "7px solid  rgb(33, 150, 243)"
-                    }}
-                    iconStyle={{ background: "#2E0085", color: "#fff" }}
-                    icon={<MdTablet />}
-                  >
-                    <h3 className="vertical-timeline-element-title">Event 3</h3>
-                    <h4 className="vertical-timeline-element-subtitle">
-                      Topic
-                    </h4>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Morbi diam justo, ornare quis nisi elementum, interdum
-                      convallis urna. Phasellus lobortis ante sed tortor rhoncus
-                      dapibus.
-                    </p>
-                    <div className="circle" />
-                    <div className="logobutton2">
-                      <a href="https://2018.uottahack.ca/" target="_blank">
-                        <button className="btn1">Event Link →</button>
-                      </a>
+                      <button className="btn1">Event Link →</button>
                     </div>
                   </VerticalTimelineElement>
 
@@ -103,47 +73,19 @@ class Past extends Component {
                     iconStyle={{ background: "#2E0085", color: "#fff" }}
                     icon={<MdTablet />}
                   >
-                    <h3 className="vertical-timeline-element-title">Event 4</h3>
+                    <h3 className="vertical-timeline-element-title">
+                      PPT and Structured Model round
+                    </h3>
                     <h4 className="vertical-timeline-element-subtitle">
-                      Topic
+                      Time: 3 pm to 6 pm
                     </h4>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Morbi diam justo, ornare quis nisi elementum, interdum
-                      convallis urna. Phasellus lobortis ante sed tortor rhoncus
-                      dapibus.
+                    <p className="paragraph-text">
+                      Teams develop prototypes. Presentations and judging based
+                      on novelty, functionality, feasibility.
                     </p>
                     <div className="circle" />
                     <div className="logobutton2">
-                      <a href="https://2018.uottahack.ca/" target="_blank">
-                        <button className="btn1">Event Link →</button>
-                      </a>
-                    </div>
-                  </VerticalTimelineElement>
-                  <VerticalTimelineElement
-                    className="vertical-timeline-element--work"
-                    contentStyle={{ background: "#3F4047", color: "white" }}
-                    contentArrowStyle={{
-                      borderRight: "7px solid  rgb(33, 150, 243)"
-                    }}
-                    iconStyle={{ background: "#2E0085", color: "#fff" }}
-                    icon={<MdTablet />}
-                  >
-                    <h3 className="vertical-timeline-element-title">Event 5</h3>
-                    <h4 className="vertical-timeline-element-subtitle">
-                      Topic
-                    </h4>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Morbi diam justo, ornare quis nisi elementum, interdum
-                      convallis urna. Phasellus lobortis ante sed tortor rhoncus
-                      dapibus.
-                    </p>
-                    <div className="circle" />
-                    <div className="logobutton2">
-                      <a href="https://2018.uottahack.ca/" target="_blank">
-                        <button className="btn1">Event Link →</button>
-                      </a>
+                      <button className="btn1">Event Link →</button>
                     </div>
                   </VerticalTimelineElement>
 
@@ -156,21 +98,70 @@ class Past extends Component {
                     iconStyle={{ background: "#2E0085", color: "#fff" }}
                     icon={<MdTablet />}
                   >
-                    <h3 className="vertical-timeline-element-title">Event 6</h3>
+                    <h3 className="vertical-timeline-element-title">
+                      Judging Round
+                    </h3>
                     <h4 className="vertical-timeline-element-subtitle">
-                      Topic
+                      Time: 6-7 pm
                     </h4>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Morbi diam justo, ornare quis nisi elementum, interdum
-                      convallis urna. Phasellus lobortis ante sed tortor rhoncus
-                      dapibus.
+                    <p className="paragraph-text">
+                      Judges select promising ideas.
                     </p>
                     <div className="circle" />
                     <div className="logobutton2">
-                      <a href="https://2018.uottahack.ca/" target="_blank">
-                        <button className="btn1">Event Link →</button>
-                      </a>
+                      <button className="btn1">Event Link →</button>
+                    </div>
+                  </VerticalTimelineElement>
+
+                  <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
+                    contentStyle={{ background: "#3F4047", color: "white" }}
+                    contentArrowStyle={{
+                      borderRight: "7px solid  rgb(33, 150, 243)"
+                    }}
+                    iconStyle={{ background: "#2E0085", color: "#fff" }}
+                    icon={<MdTablet />}
+                  >
+                    <h3 className="vertical-timeline-element-title">
+                      Final presentation and Project round
+                    </h3>
+                    <h4 className="vertical-timeline-element-subtitle">
+                      Time: till 3 pm
+                    </h4>
+                    <p className="paragraph-text">
+                      Project introduction and problem statement. Solution
+                      description and technical implementation. Future plans and
+                      impact discussed.
+                    </p>
+                    <div className="circle" />
+                    <div className="logobutton2">
+                      <button className="btn1">Event Link →</button>
+                    </div>
+                  </VerticalTimelineElement>
+
+                  <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
+                    contentStyle={{ background: "#3F4047", color: "white" }}
+                    contentArrowStyle={{
+                      borderRight: "7px solid  rgb(33, 150, 243)"
+                    }}
+                    iconStyle={{ background: "#2E0085", color: "#fff" }}
+                    icon={<MdTablet />}
+                  >
+                    <h3 className="vertical-timeline-element-title">
+                      Final Judgment Round
+                    </h3>
+                    <h4 className="vertical-timeline-element-subtitle">
+                      Time: 3-4 pm
+                    </h4>
+                    <p className="paragraph-text">
+                      Only the Projects with most feasible solutions and
+                      implementations are selected, based on the Judges and
+                      Organising Team.
+                    </p>
+                    <div className="circle" />
+                    <div className="logobutton2">
+                      <button className="btn1">Event Link →</button>
                     </div>
                   </VerticalTimelineElement>
 
