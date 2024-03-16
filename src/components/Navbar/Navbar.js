@@ -40,7 +40,8 @@ const navbar = () => {
             offset={-150}
             duration={500}
           >
-            <img src={images["hacklogo.png"]} alt="Logo" />
+            <img src={images["GDSC.png"]} alt="Logo" 
+            style={{ width: "200px", height: "auto" }}/>
           </Link>
         </div>
         <div className="PageLinks">
