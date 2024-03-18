@@ -1,15 +1,13 @@
 {
-  "name": "uottahack-home",
+  "name": "code-clash",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@mobiscroll/react-lite": "^4.10.9",
-    "bootstrap": "^5.2.2",
     "boxicons": "^2.1.4",
     "express": "*",
     "gsap": "^3.12.5",
     "react": "^16.4.1",
-    "react-bootstrap": "^2.5.0",
     "react-bootstrap-buttons": "^1.0.0",
     "react-card-carousel": "^1.1.3",
     "react-dom": "^16.4.1",

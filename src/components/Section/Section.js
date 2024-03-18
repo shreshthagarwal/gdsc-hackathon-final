@@ -16,6 +16,7 @@ class Section extends Component {
     Themes: "green",
     Sponsors: "orange",
     Partners: "purple",
+    Team: "yellow",
     FAQ: "#ea4335",
     "Our Team": "brown"
   };
@@ -34,8 +35,8 @@ class Section extends Component {
         {this.props.section.sectionName === "Themes" && <Event />}
         {this.props.section.sectionName === "Sponsors" && <Sponsor />}
         {this.props.section.sectionName === "Partners" && <Partners />}
+        {this.props.section.sectionName === "Team" && <Organizer />}
         {this.props.section.sectionName === "FAQ" && <Contact />}
-        {this.props.section.sectionName === "Our Team" && <Organizer />}
       </div>
     );
   }

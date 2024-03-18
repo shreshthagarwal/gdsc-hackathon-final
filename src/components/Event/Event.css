@@ -147,7 +147,7 @@
 
 .themepic1 {
   position: absolute;
-  top: 0;
+  top: 10%; /* Adjust the value to position the image lower within the card */
   left: 0;
   width: 100%;
   object-fit: cover;

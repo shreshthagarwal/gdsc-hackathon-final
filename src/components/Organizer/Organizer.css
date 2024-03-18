@@ -1,46 +1,54 @@
-.Organizer {
-  align-content: center;
-  justify-content: center;
-  text-align: center;
+.slider {
+  background: white;
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+  height: 450px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 960px;
 }
 
-.menu {
-  align-content: left;
-  justify-content: left;
-  text-align: left;
+.slider::before,
+.slider::after {
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  content: "";
+  height: 450px;
+  position: absolute;
+  width: auto;
+  z-index: 2;
 }
 
-.Organizer-Group {
-  margin-bottom: 50px;
+.slider::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
 }
 
-#body .btn-org {
-  margin: 20px;
+.slider::before {
+  left: 0;
+  top: 0;
 }
 
-.Organizer-Group {
-  margin-bottom: 50px;
+.slide-track {
+  animation: scroll 40s linear infinite;
+  display: flex;
+  width: calc(750px * 14);
 }
 
-#cards > .ui.card {
-  width: 275px;
-  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
-  margin: 15px;
+.slide {
+  height: 450px;
+  width: 750px;
 }
 
-#cards > .ui.card > .content > .header {
-  font-family: SemiFont;
-}
-
-#cards > .ui.card > .content > .meta {
-  font-family: ParagraphFont;
-  color: rgb(150, 150, 150);
-}
-
-h3 {
-  margin-top: 30px;
-}
-
-img {
-  margin-top: 30px;
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 7));
+  }
 }

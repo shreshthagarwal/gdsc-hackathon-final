@@ -1,87 +1,71 @@
 import React, { Component } from "react";
-import './Organizer.css';
-import './team.css';
-
-const organizersData = [
-  {
-    imgUrl: "https://cdn1.vectorstock.com/i/1000x1000/82/55/anonymous-user-circle-icon-vector-18958255.jpg",
-    name: 'Organizer 1',
-    position: 'Position 1',
-    linkedin: 'linkedin-link',
-    github: 'github-link',
-    website: 'website-link'
-  },
-  {
-    imgUrl: "https://cdn1.vectorstock.com/i/1000x1000/82/55/anonymous-user-circle-icon-vector-18958255.jpg",
-    name: 'Organizer 1',
-    position: 'Position 1',
-    linkedin: 'linkedin-link',
-    github: 'github-link',
-    website: 'website-link'
-  },
-  {
-    imgUrl: "https://cdn1.vectorstock.com/i/1000x1000/82/55/anonymous-user-circle-icon-vector-18958255.jpg",
-    name: 'Organizer 1',
-    position: 'Position 1',
-    linkedin: 'linkedin-link',
-    github: 'github-link',
-    website: 'website-link'
-  },
-  {
-    imgUrl: "https://cdn1.vectorstock.com/i/1000x1000/82/55/anonymous-user-circle-icon-vector-18958255.jpg",
-    name: 'Organizer 1',
-    position: 'Position 1',
-    linkedin: 'linkedin-link',
-    github: 'github-link',
-    website: 'website-link'
-  },
-  // Add more organizers as needed
-];
+import "./Organizer.css"; // Import custom CSS for the component
 
 class Team extends Component {
   render() {
     return (
-    <section className='our__team'>
-      <div className='container'>
-        <div className='team__wrapper'>
-          {organizersData.map((item, index) => (
-            <div className='team__item' key={index}>
-              <div className='team__img'>
-                <img src={item.imgUrl} alt='' />
-              </div>
-              <div className='team__details'>
-                <h4>{item.name}</h4>
-                <p className='description'>{item.position}</p>
-
-                <div className='team__member-social'>
-                  <a href={item.linkedin} target="_blank" rel="noopener noreferrer">
-                    <span><i className='ri-linkedin-line'></i></span>
-                  </a>
-                  <a href={item.github} target="_blank" rel="noopener noreferrer">
-                    <span><i className='ri-twitter-line'></i></span>
-                  </a>
-                  <a href={item.website} target="_blank" rel="noopener noreferrer">
-                    <span><i className='ri-facebook-line'></i></span>
-                  </a>
-                </div>
+      <>
+        <div className="Past" id="Past">
+          <div className="ui centered grid">
+            <div className="Row">
+              <div className="Timeline">
+                <UncontrolledExample />
               </div>
             </div>
-          ))}
+            <div className="Row">
+              <div className="Timeline">
+                <UncontrolledExample />
+              </div>
+            </div>
+          </div>
+        </div>
+      </>
+    );
+  }
+}
+
+function UncontrolledExample() {
+  return (
+    <div className="slider">
+      <div className="slide-track">
+        <div className="slide">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhD4sXnSRh-nrILXPegixpxzoRijqz_t19nKFEgeCRUA&s"
+            alt=""
+            style={{ height: "450px", width: "750px" }}
+          />
+        </div>
+        <div className="slide">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2IHo9Q3QCBSD9x_FkWTWns81V41u8AAoZp7Up4Gsjow&s"
+            alt=""
+            style={{ height: "450px", width: "750px" }}
+          />
+        </div>
+        <div className="slide">
+          <img
+            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png"
+            alt=""
+            style={{ height: "450px", width: "750px" }}
+          />
+        </div>
+        <div className="slide">
+          <img
+            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png"
+            alt=""
+            style={{ height: "450px", width: "750px" }}
+          />
+        </div>
+        <div className="slide">
+          <img
+            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png"
+            alt=""
+            style={{ height: "450px", width: "750px" }}
+          />
         </div>
       </div>
-    </section>
-    );
-  }
+    </div>
+  );
 }
 
-class Organizer extends Component {
-  render() {
-    return (
-      <div className="Organizer">
-        <Team />
-      </div>
-    );
-  }
-}
-
-export default Organizer;
+export default Team;
