@@ -20,9 +20,21 @@
 }
 
 .LogoText {
+  color: #f9ab00;
   display: block;
   font-size: 10px;
   margin-bottom: 120px;
+  text-align: center;
+}
+
+.Signature {
+  color: #f9ab00;
+  display: block;
+}
+
+.MediaLinks {
+  color: #f9ab00;
+  display: block;
 }
 
 @media only screen and (max-width: 10000px) {

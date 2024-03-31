@@ -7,6 +7,7 @@ import Contact from "../Contact/Contact.js";
 import Sponsor from "../Sponsor/Sponsor.js";
 import Partners from "../Partners/Partners.js";
 import Past from "../Past/Past.js";
+import Footer from "../Footer/Footer.js";
 
 class Section extends Component {
   // Define a mapping of section names to colors

@@ -40,10 +40,6 @@ class App extends Component {
           sectionName: "FAQ",
           subtitle: ""
         }
-        // {
-        //   sectionName: "Our Team",
-        //   subtitle: ""
-        // }
       ]
     });
   }
@@ -55,7 +51,7 @@ class App extends Component {
         <Front />
         <Page section={this.state.sections} />
         <hr />
-        {/* <Footer /> */}
+        <Footer />
       </div>
     );
   }
